@@ -3,6 +3,8 @@ const mongoose = require("mongoose")
 const methodOverride = require("method-override")
 const path = require("path")
 const ejsMate = require("ejs-mate")
+// const MongoStore = require("connect-mongo");
+
 
 const app = express()
 
@@ -26,6 +28,11 @@ app.engine("ejs", ejsMate)
 app.get("/",(req,res)=>{
     res.render("home.ejs");
 })
+
+app.get("/about",(req,res)=>{
+    res.render("about.ejs");
+})
+
 
 app.listen(port, ()=>{
     console.log('Server is listening on port ${port}')
