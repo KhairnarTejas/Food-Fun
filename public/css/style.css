@@ -23,3 +23,7 @@
         box-shadow: 0 0 15px rgba(0, 0, 0, 0.3); /* Add a subtle shadow for depth */
     }
     
+ .cour{
+    height: 300px;
+    width: 300px;
+ }
