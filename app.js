@@ -33,6 +33,14 @@ app.get("/menu",(req,res)=>{
     res.render("menu.ejs");
 })
 
+app.get("/stay",(req,res)=>{
+    res.render("stay.ejs");
+})
+
+app.get("/events",(req,res)=>{
+    res.render("event.ejs");
+})
+
 app.get("/about",(req,res)=>{
     res.render("about.ejs");
 })
