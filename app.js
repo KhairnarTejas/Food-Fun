@@ -45,6 +45,14 @@ app.get("/about",(req,res)=>{
     res.render("about.ejs");
 })
 
+app.get("/orderfood",(req,res)=>{
+    res.render("orderfood.ejs");
+})
+
+app.get("/bookstay",(req,res)=>{
+    res.render("bookstay.ejs");
+})
+
 
 app.listen(port, ()=>{
     console.log('Server is listening on port ${port}')

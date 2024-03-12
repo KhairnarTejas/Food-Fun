@@ -77,9 +77,11 @@
 }
 
 /* Adjust the content area to leave space for the sidebar */
-.content {
-    margin-left: 250px; /* Set to the width of the sidebar */
-    padding: 20px;
+.main-content {
+        width: 100%; /* You can adjust this value based on your design preferences */
+        margin: 0 auto; /* Center the main content */
+        flex: 1; /* Let the main content flex to fill the available space */
+   
 }
 
 
